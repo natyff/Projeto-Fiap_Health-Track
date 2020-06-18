@@ -1,0 +1,23 @@
+html,body{
+    background-color: #ffbc40;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    }
+
+    .container{ margin-top: 6%;
+        height: 100%;
+      
+        width: fit-content;
+        }
+
+.navbar {margin-top: 6%;
+    background-color: #ffbc40;
+}
+.navbar-brand {color: white;
+text-align: center; }
+
+.nav-link {color: white;
+}
+
+.container-fluid {background-color: tomato;}

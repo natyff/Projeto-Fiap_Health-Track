@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang=pt-br>
+
+<head>
+  <title>Health Track</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="widht=device-width, inicial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap-4.5.0\css\bootstrap.css">
+  <script src="jquery-3.5.1.js"></script>
+  <script src="bootstrap-4.5.0\js\bootstrap.bundle.js"></script>
+  <script src="bootstrap-4.5.0\js\bootstrap.min.js"></script>
+  <link rel="shortcut icon" type="image/x-icon" href="Imagens\icone.ico" />
+  <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
+  <link rel="stylesheet" href="format_infos.css">
+
+</head>
+
+<div class="container">
+  <div class="content">
+    <h3 class="card-header text-center font-weight-bold text-uppercase py-4">Lista de Alimentos</h3>
+    <div id="table" class="table-editable">
+      <span class="table-add float-right mb-3 mr-2"><i class="fas fa-plus fa-2x"
+            aria-hidden="true"></i> </span>
+      <table class="table table-bordered table-responsive-md table-striped text-center">
+        <thead>
+          <tr>
+            <th class="text-center">Alimento</th>
+            <th class="text-center">Porção (gr ou ml)</th>
+            <th class="text-center">Horário</th>
+            <th class="text-center">Comentário</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="pt-3-half" contenteditable="true">Pão de forma Integral</td>
+            <td class="pt-3-half" contenteditable="true">100gr</td>
+            <td class="pt-3-half" contenteditable="true">Café da Manhã</td>
+            <td class="pt-3-half" contenteditable="true">Com geleia light</td>
+            <td>
+              <span class="table-edit"><button type="button"
+                  class="btn btn-info btn-rounded btn-sm my-0">Editar</button></span>
+            </td>
+          </tr>
+          <tr>
+            <td class="pt-3-half" contenteditable="true">Café com leite</td>
+            <td class="pt-3-half" contenteditable="true">200ml</td>
+            <td class="pt-3-half" contenteditable="true">Café da Manhã</td>
+            <td class="pt-3-half" contenteditable="true">Sem açucar</td>
+            <td>
+              <span class="table-edit"><button type="button"
+                  class="btn btn-info btn-rounded btn-sm my-0">Editar</button></span>
+            </td>
+          </tr>
+          <tr>
+            <td class="pt-3-half" contenteditable="true">Arroz integral</td>
+            <td class="pt-3-half" contenteditable="true">120gr</td>
+            <td class="pt-3-half" contenteditable="true">Almoço</td>
+            <td class="pt-3-half" contenteditable="true">Pouco sal</td>
+            <td>
+              <span class="table-edit"><button type="button"
+                  class="btn btn-info btn-rounded btn-sm my-0">Editar</button></span>
+            </td>
+          </tr>
+          <tr class="hide">
+            <td class="pt-3-half" contenteditable="true">Frango ou Carne</td>
+            <td class="pt-3-half" contenteditable="true">90gr</td>
+            <td class="pt-3-half" contenteditable="true">Almoço</td>
+            <td class="pt-3-half" contenteditable="true"> </td>
+            <td>
+              <span class="table-edit"><button type="button"
+                  class="btn btn-info btn-rounded btn-sm my-0">Editar</button></span>
+            </td>
+          </tr>
+          <tr class="hide">
+            <td class="pt-3-half" contenteditable="true">Fruta</td>
+            <td class="pt-3-half" contenteditable="true">100gr</td>
+            <td class="pt-3-half" contenteditable="true">Lanche</td>
+            <td class="pt-3-half" contenteditable="true">Evitar fruta seca</td>
+            <td>
+              <span class="table-edit"><button type="button"
+                  class="btn btn-info btn-rounded btn-sm my-0">Editar</button></span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
